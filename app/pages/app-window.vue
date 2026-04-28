@@ -33,9 +33,9 @@ function onDiscard() {
   <s-page heading="App Window">
     <template v-if="ready">
       <s-button slot="secondary-actions" type="reset" form="save-bar-form">Cancel</s-button>
-      <s-button slot="secondary-actions" @click="navigateTo('/dummy')">Go to Page</s-button>
+      <!-- <s-button slot="secondary-actions" @click="navigateTo('/dummy')">Go to Page</s-button>
       <s-button slot="primary-action" variant="primary" type="submit" form="save-bar-form">Save</s-button>
-      <s-button slot="secondary-actions" command="--hide" commandFor="main-app-window">Close App Window</s-button>
+      <s-button slot="secondary-actions" command="--hide" commandFor="main-app-window">Close App Window</s-button> -->
       <s-button slot="secondary-actions" commandFor="actions-menu" icon="menu">More actions</s-button>
       <s-menu id="actions-menu">
         <s-button icon="duplicate">Duplicate</s-button>
