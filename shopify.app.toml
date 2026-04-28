@@ -2,7 +2,7 @@
 
 client_id = "89080ece086f2ac81d370d26fb0148d2"
 name = "bfs-nuxt3-app"
-application_url = "https://shopify.dev/apps/default-app-home"
+application_url = "https://nuxt-4-bfs.netlify.app/"
 embedded = true
 handle = "bfs-nuxt3-app"
 
@@ -18,7 +18,7 @@ api_version = "2026-07"
 scopes = "read_analytics,read_inventory,read_locations,read_orders,read_products,read_reports,write_products"
 
 [auth]
-redirect_urls = [ "https://shopify.dev/apps/default-app-home/api/auth" ]
+redirect_urls = [ "https://nuxt-4-bfs.netlify.app/" ]
 
 [pos]
 embedded = false
